@@ -14,7 +14,7 @@ class App extends Component {
       errors: {}
     };
 
-    this.API_BASE_URL = 'http://localhost:5001';
+    this.API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001';
 
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
