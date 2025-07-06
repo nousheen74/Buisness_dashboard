@@ -54,7 +54,7 @@ npm install
 cd Backend
 npm start
 ```
-The backend will run on `http://localhost:5000`
+The backend will run on `http://localhost:5003`
 
 ### Step 2: Start the Frontend Application
 Open a new terminal window and run:
@@ -93,7 +93,7 @@ GrowthProAI_assignment/
 
 ## 🔧 API Endpoints
 
-### Backend (Port 5000)
+### Backend (Port 5002)
 
 1. **POST /business-data**
    - Accepts: `{ "name": "Business Name", "location": "Location" }`
@@ -125,7 +125,7 @@ GrowthProAI_assignment/
 ### Common Issues
 
 1. **Port Already in Use**
-   - Backend: Change port in `Backend/server.js` (line 5)
+   - Backend: Change port in `Backend/server.js` (line 4)
    - Frontend: React will automatically suggest an alternative port
 
 2. **CORS Errors**
